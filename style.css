@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.text-secondary {
+  color: #777;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card-container-task {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-task {
+  width: 30%;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #555;
+}
+
+.clear-btn {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #f22;
+  opacity: 0.8;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: start;
+}
+
+.btn-group button {
+  margin-right: 10px;
+  padding: 10px;
+  width: 40%;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit-btn:hover {
+  background-color: #22f;
+  opacity: 0.8;
+}
+
+.delete-btn {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #f22;
+  opacity: 0.8;
+}
+
+.complete-btn {
+  background-color: #0f0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.complete-btn:hover {
+  background-color: #2f2;
+  opacity: 0.8;
+}
+
+.complete .card-title {
+  text-decoration: line-through;
+}
+
+.complete .text-secondary {
+  text-decoration: line-through;
+}
+
+#bg-complete {
+  background-color: #f5f5f5;
+}

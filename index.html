@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <div class="card">
+          <h2 class="card-title">To-Do-List</h2>
+          <p class="text-secondary">Add a task to your list</p>
+          <div class="input-container">
+            <form name="todo-adder" onsubmit="return false;">
+              <input
+                type="text"
+                class="task-input"
+                id="task-title"
+                placeholder="Title"
+              />
+              <input
+                type="text"
+                class="task-input"
+                id="task-desc"
+                placeholder="Description Task"
+              />
+            </form>
+            <button id="add-btn" class="add-btn" onclick="addTask()">
+              Add
+            </button>
+            <button class="clear-btn" onclick="emptyTask()">Empty Task</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
